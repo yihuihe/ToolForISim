@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1460094985 source:d:\code_blocks_program\tclforisim\starmenu.cpp
+	"Function.h"
+	<stdio.h>
+
+1460095345 d:\code_blocks_program\tclforisim\function.h
+
+1460094984 source:d:\code_blocks_program\tclforisim\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Function.h"
+
+1460095323 source:d:\code_blocks_program\tclforisim\actiontomenu.cpp
+	<stdio.h>
+	"Function.h"
+
+1460093310 source:d:\code_blocks_program\tclforisim\createtestbenchprj_function.cpp
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Function.h"
+
+1460094516 source:d:\code_blocks_program\tclforisim\createtestbenchbat_function.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Function.h"
+
+1460096141 source:d:\code_blocks_program\tclforisim\createruntclfunction.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Function.h"
+
+1460096141 source:e:\dpan\code_blocks_program\tclforisim\tclforisim\createruntclfunction.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Function.h"
+
+1460095345 e:\dpan\code_blocks_program\tclforisim\tclforisim\function.h
+
+1460094516 source:e:\dpan\code_blocks_program\tclforisim\tclforisim\createtestbenchbat_function.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Function.h"
+
+1460096357 source:e:\dpan\code_blocks_program\tclforisim\tclforisim\createtestbenchprj_function.cpp
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Function.h"
+
+1460094985 source:e:\dpan\code_blocks_program\tclforisim\tclforisim\starmenu.cpp
+	"Function.h"
+	<stdio.h>
+
+1460094984 source:e:\dpan\code_blocks_program\tclforisim\tclforisim\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Function.h"
+
+1460095323 source:e:\dpan\code_blocks_program\tclforisim\tclforisim\actiontomenu.cpp
+	<stdio.h>
+	"Function.h"
+

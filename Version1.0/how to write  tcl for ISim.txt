@@ -1,0 +1,115 @@
+1.You should know the steps for simulating a design in ISim:
+  .Step 1:Gathering Files and Mapping Libraries
+  .Step 2:Parsing and Elaborating the Design 
+  .Step 3:Simulating the Design
+  .Step 4:Examinting the Design
+  .Step 5:Debugging the Design
+  
+////////////////////////////////////////////////////////////////////////////////
+// Step 1 :Gathering Files and Mapping Libraries
+////////////////////////////////////////////////////////////////////////////////
+The required files to run a simulation in ISim are as follows:
+  .Design files,including stimulus files(HDL testbench)
+  .User libraries(three ways,need to choose)
+  .Miscellaneous data files
+  
+////////////////////////////////////////////////////////////////////////////////
+// Step 2:Parsing and Elaborating the Design
+////////////////////////////////////////////////////////////////////////////////
+Interactive Command Line Mode
+The steps in the interactive command-line mode:
+  .Creating a project file. See Project File Syntax, page 43
+  .Using the fuse command. See Running fuse, page 38
+  
+////////////////////////////////////////////////////////////////////////////////
+// Step 3:Simulating the Design
+////////////////////////////////////////////////////////////////////////////////
+For information about running simulation in read-only mode, see
+Opening a Static Simulation in Chapter 5.
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+Compilation and Simulation
+////////////////////////////////////////////////////////////////////////////////
+Functional Simulation can be run early in the design process.So we can not do 
+timing simulation because it should be run post-Place and Route(PAR)
+
+Running a simulation from the command line for either a Functional or a Timing
+simulation requires the following steps:
+1. Parsing design files
+2. Generating a simulation executable
+3. Simulating the design
+
+////////////////////////////////////////////////////////////////////////////////
+The  vhpcomp and  vlogcomp commands parse VHDL and Verilog files, respectively.
+So we use vlogcomp .
+
+
+Running fuse 
+The  fuse command:
+  .Performs static elaboration of a design in terms of parsed nodes
+  .Generates object code for each unique module instance
+  .Links the generated object codes with the simulation engine library to create 
+   a simulation executable
+
+Simulating the Design
+Using the Command Line
+  eg.  x.exe  -tclbatch run.tcl
+  
+
+Pausing a Simulation
+	Type Ctrl+C at the command line only
+
+
+Saving Simulation Results
+?????
+
+
+Closing Simulation
+	Type the quit -f command in the Console at the prompt
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+Working with the Wave Configuration
+Adding Signals Using Tcl
+1. Optionally, you can first identify the objects you want to add by exploring 
+the design hierarchy in the Instances and Processes panel and the Objects panel, 
+as described above, or type scope in the Console panel.
+2. In the Console panel, type wave add to and an individual object or a group of
+objects.
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+Viewing Simulation Results
+Opening a Wave Configuration from a Command Prompt
+ Because a wave configuration is not open by default when you launch the GUI, 
+ you can include the -view switch to open an existing one.
+ Run the simulation executable with the following syntax:
+  <sim_exe>.exe -gui -wdb <wdb>.wdb -view <wcfg>.wcfg
+Where:
+  .-gui launches the GUI
+  .-wdb <wdb>.wdb specifies the filename where the simulation data is stored
+  .-view <wcfg>.wcfg opens the specified waveform file in the GUI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

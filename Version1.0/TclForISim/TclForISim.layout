@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="ActionToMenu.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="287" topLine="6" />
+	</File>
+	<File name="CreateRunTclFunction.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="308" topLine="0" />
+	</File>
+	<File name="CreateTestBenchBat_Function.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="70" topLine="0" />
+	</File>
+	<File name="CreateTestBenchPrj_Function.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="681" topLine="2" />
+	</File>
+	<File name="Function.h" open="1" top="0" tabpos="3">
+		<Cursor position="229" topLine="0" />
+	</File>
+	<File name="StarMenu.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="610" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="892" topLine="15" />
+	</File>
+</CodeBlocks_layout_file>
